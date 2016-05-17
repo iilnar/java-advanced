@@ -4,7 +4,6 @@ import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 

@@ -21,6 +21,12 @@ java -cp "./artifacts/ParallelMapperTest.jar:./lib/*:./out/production/hw/" info.
 webcrawler)
 java -cp "./artifacts/WebCrawlerTest.jar:./lib/*:./out/production/hw/" info.kgeorgiy.java.advanced.crawler.Tester hard ru.ifmo.ctddev.sabirzyanov.webcrawler.WebCrawler $2
 ;;
+hello_server)
+java -cp "./artifacts/HelloUDPTest.jar:./lib/*:./out/production/hw/" info.kgeorgiy.java.advanced.hello.Tester server ru.ifmo.ctddev.sabirzyanov.hello.HelloUDPServer $2
+;;
+hello_client)
+java -cp "./artifacts/HelloUDPTest.jar:./lib/*:./out/production/hw/" info.kgeorgiy.java.advanced.hello.Tester client ru.ifmo.ctddev.sabirzyanov.hello.HelloUDPClient $2
+;;
 *)
 echo "Usage: run.sh [walker, arrayset, implementor, jarimplementor, concurrent, mapper, webcrawler]"
 ;;
